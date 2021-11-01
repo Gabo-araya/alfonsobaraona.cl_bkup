@@ -1,0 +1,283 @@
+/* Formulario */
+fieldset {
+	border: 1px solid #666666;
+	padding: 10px;
+	margin: 10px;
+	background-color: #FFFFFF;
+}
+legend {
+	font: bold 14px Arial, Helvetica, sans-serif;
+	border: 1px solid #666666;
+	background-color: #F0F0F0;
+	padding: 5px;
+	margin: 10px;
+}
+label {
+	font: bold 12px Arial, Helvetica, sans-serif;
+	margin: 3px;
+	padding: 3px;
+}
+input, select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #F0F0F0;
+	border: 1px solid #999999;
+	margin: 3px;
+	padding: 3px;
+}
+select {
+	width: 220px;
+}
+
+/* Cajas de Información */
+.box_info, .box_success, .box_warning, .box_error, .box_validation {
+	border: 1px solid;
+	margin: 10px auto;
+	padding:15px 10px 15px 50px;
+	background: no-repeat 10px center;
+	width: 75%;
+	font-weight: bold;
+	font-size: 13px;
+}
+.box_info {
+    color: #00529B;
+    background-color: #BDE5F8;
+    background-image: url('icons/box_info.png');
+}
+.box_info li{
+	color: #000000;
+	list-style:disc inside;
+	margin-right: 25px;
+	padding-right: 25px;	
+}
+
+.box_success {
+    color: #4F8A10;
+    background-color: #DFF2BF;
+    background-image:url('icons/box_success.png');
+}
+.box_warning {
+    color: #9F6000;
+    background-color: #FFFFCC;
+    background-image: url('icons/box_warning2.png');
+}
+.box_error {
+    color: #D8000C;
+    background-color: #FFBABA;
+    background-image: url('icons/box_error.png');
+}
+.box_validation {
+    color: #D63301;
+    background-color: #FFCCBA;
+    background-image: url('icons/box_validation.png');
+}
+.box_secc {
+	margin: 10px;
+	padding: 20px;
+	background: #F0F0F0 url('../img/secc_fondo.png');
+	width: 40%;
+	float: left;
+}
+.box_secc h1{
+	margin: 10px auto;
+}
+.box_print {
+	background: url('icons/icon_printer.png') no-repeat left center;
+	margin: 0px auto;
+	padding:0px 0px 0px 20px;
+	font-weight: bold;
+	font-size: 11px;
+}
+.box_pdf {
+	background: url('icons/icon_print_pdf.png') no-repeat left center;
+	margin: 0px auto;
+	padding:0px 0px 0px 20px;
+	font-weight: bold;
+	font-size: 11px;
+}
+.descrip {
+	width: 75%;
+	padding: 10px;
+	margin: 5px auto;
+	border: 1px solid #CCCCCC;
+	background-color: #F0F0F0;
+}
+/* Tablas */
+.table {
+	width: 100%;
+	font-size: 13px;
+	text-align: center;
+}
+.table th {
+	text-align: center;
+	font-weight: bold;
+	color: #990000;
+	padding: 5px;
+	font-size: 14px;
+	background-color: #FFEA93;
+}
+.table .celda1 {
+	background-color: #FFFFCC;
+	vertical-align: top;
+	padding: 2px;
+}
+.table .celda2 {
+    background-color: #FFF1DD;
+    vertical-align: top;
+	padding: 2px;	
+ }
+.table img {
+	margin: 2px;
+	border: 1px solid #666666;
+	padding: 2px;
+	background-color: #FFFFFF;
+}
+/* Texto */
+.pre{
+	font-size: 12px;
+	margin: 0px;
+	padding: 2px;
+	border-top: 1px solid #333333;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 4px solid #333333;
+	background-color: #F0F0F0;
+	text-align: left;
+	text-indent: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.requerido {
+	font-size: 11px;
+	font-weight: bold;
+	color: #FF0000;
+}
+.opcional {
+	font-size: 11px;
+	font-weight: bold;
+	color: #009900;
+}
+.mini {
+	font-size: 10px;
+	text-align: justify;
+}
+.left {
+	text-align: left;
+}
+.right {
+	text-align: right;	
+}
+.center {
+	text-align: center;	
+}
+.borde_img {
+	border: 1px solid #666666;
+	padding: 2px;
+	background-color: #FFFFFF;
+	margin: 0px 2px 0px;
+}
+/*ul.link {
+	padding: 0px;
+	line-height: 10px;
+	font-weight: bold;
+	text-transform: capitalize;
+	margin: 0px;
+}
+ul.link a{
+	padding: 0px 0px 0px 10px;
+	text-decoration: none;
+	color: #0099FF;
+	display: block;
+	margin: 0px;	
+}
+ul.link a:hover {
+	padding: 0px 0px 0px 20px;
+	color: #000099;
+	margin: 0px;
+}*/
+
+/* Iconos de Secciones */
+.inicio, .administracion, .herramientas, .configuracion, .cuenta, .ayuda, .salir, .login, .secciones, .noticias, .articulos, .productos, .servicios, .galeria, .imagenes, .vp, .vnp, .vd, .vnd, .archivos, .rss, .backup, .backup_save, .backup_search, .download, .usuarios, .categorias, .opciones, .estadisticas, .info_usuario, .password, .creditos, .acercade, .librovisitas, .licencia, .login_log, .page_first, .page_previous, .page_next, .page_last{
+   background: no-repeat left center; margin: 0px auto; padding:0px 0px 0px 20px;
+}
+.inicio{background-image: url('icons/secc_inicio.png');}
+.administracion{background-image: url('icons/secc_administracion.png');}
+.herramientas{background-image: url('icons/secc_herramientas.png');}
+.configuracion{background-image: url('icons/secc_configuracion.png');}
+.cuenta{background-image: url('icons/secc_cuenta.png');}
+.ayuda{background-image: url('icons/secc_ayuda.png');}
+.salir{background-image: url('icons/secc_salir.png');}
+.login{background-image: url('icons/icon_login.png');}
+
+.secciones{background-image: url('icons/secc_secciones.png');}
+.noticias{background-image: url('icons/secc_noticias.png');}
+.articulos{background-image: url('icons/secc_articulos.png');}
+.productos{background-image: url('icons/secc_productos.png');}
+.servicios{background-image: url('icons/secc_servicios.png');}
+.galeria{background-image: url('icons/secc_galeria.png');}
+.imagenes{background-image: url('icons/secc_imagenes.png');}
+
+.vp{background-image: url('icons/secc_vp.png');}
+.vnp{background-image: url('icons/secc_vnp.png');}
+.vd{background-image: url('icons/secc_vd.png');}
+.vnd{background-image: url('icons/secc_vnd.png');}
+
+.archivos{background-image: url('icons/secc_archivos.png');}
+.rss{background-image: url('icons/secc_rss.png');}
+.backup{background-image: url('icons/secc_backup.png');}
+.backup_save{background-image: url('icons/secc_backup_save.png');}
+.backup_search{background-image: url('icons/secc_backup_search.png');}
+.download{background-image: url('icons/icon_download.png');}
+
+.usuarios{background-image: url('icons/secc_usuarios.png');}
+.categorias{background-image: url('icons/secc_categorias.png');}
+.opciones{background-image: url('icons/secc_opciones.png');}
+.estadisticas{background-image: url('icons/secc_estadisticas.png');}
+
+.info_usuario{background-image: url('icons/secc_info_usuario.png');}
+.password{background-image: url('icons/secc_password.png');}
+.creditos{background-image: url('icons/icon_creditos.png');}
+.acercade{background-image: url('icons/icon_acercade.png');}
+.licencia{background-image: url('icons/icon_licencia.png');}
+.login_log{background-image: url('icons/icon_login_log.png');}
+.librovisitas{background-image: url('icons/icon_comments.png');}
+
+.page_first{background-image: url('icons/icon_page_first.png');}
+.page_previous{background-image: url('icons/icon_page_previous.png');}
+.page_next{background-image: url('icons/icon_page_next.png');}
+.page_last{background-image: url('icons/icon_page_last.png');}
+
+/* Paginación */
+.paginar {
+	padding: 3px;
+	font-size: 11px;
+	text-align: center;
+	margin: 3px auto;
+}
+
+.paginar em{
+	padding: 4px;
+	font-weight: normal;
+	border: 1px solid #000000;
+	text-decoration: none;
+	margin: 2px;
+	color: #000000;
+	background-color: #FFFFFF;
+	font-style: normal;
+}
+
+.paginar a{
+	padding: 3px 4px 4px;
+	font-weight: normal;
+	border: 1px solid #CCCCCC;
+	text-decoration: none;
+	margin: 2px;
+	color: #666666;
+	background-color: #FFFFFF;
+}
+
+.paginar a:hover{
+	color: #990000;
+	border: 1px solid #990000;
+	background-color: #FFFFFF;
+}

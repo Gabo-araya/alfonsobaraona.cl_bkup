@@ -1,0 +1,167 @@
+/* This file contains the CSS data for the editable area(iframe) of TinyMCE */
+/* You can extend this CSS by adding your own CSS file with the content_css option */
+
+body, td, pre {
+	font-family: "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+
+
+.mceVisualAid {
+	border: 1px dashed #BBBBBB !important;
+}
+
+div.mceVisualAid {
+	background-image:url('../images/spacer.gif');
+	visibility: visible !important;
+}
+
+.mceItemAnchor {
+	width: 12px;
+	line-height: 6px;
+	overflow: hidden;
+	padding-left: 12px;
+	background-image: url('../images/anchor_symbol.gif');
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+/* Important is needed in Gecko browsers inorder to style links */
+/*
+a {
+	color: green !important;
+}
+*/
+
+/* Style selection range colors in Gecko browsers */
+/*
+::-moz-selection {
+	background-color: red;
+	color: green;
+}
+*/
+
+/* MSIE specific 
+
+* html body {
+	scrollbar-3dlight-color: #F0F0EE;
+	scrollbar-arrow-color: #676662;
+	scrollbar-base-color: #F0F0EE;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-face-color: #E0E0DD;
+	scrollbar-highlight-color: #F0F0EE;
+	scrollbar-shadow-color: #F0F0EE;
+	scrollbar-track-color: #F5F5F5;
+}
+*/
+textarea {
+	font-size: 12px;
+}
+blockquote{
+	padding: 15px 20px 15px 35px;
+	background: #F0F0F0 url(../img/blockquote.gif) no-repeat left top;
+}
+.code{
+	padding: 15px;
+	background: #F0F0F0 url(../img/code.gif) no-repeat left top;
+	font: 12px "Courier New", Courier, mono;
+	overflow: auto;
+	white-space: nowrap;
+}
+h2{
+	border-bottom: 1px solid #CCCCCC;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+	padding-bottom: 0.5em;
+	font-size: 1.1em;
+	font-weight: bold;
+}
+h3, h4, h5{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+h3{
+	font-size: 1.1em;
+	text-indent: 1em;
+}
+h4{
+	font-size: 1em;
+	text-indent: 2em;
+}
+h5{
+	font-size: 1em;
+	text-indent: 3em;
+}
+p{
+	text-align: justify;
+	text-indent: 2em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.imagen{
+	background: #FFFFFF;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #000000;
+	text-align: center;
+}
+
+.imagen_der{
+	background: #FFFFFF;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #000000;
+	float: right;
+}
+.imagen_izq{
+	background: #FFFFFF;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #000000;
+	float: left;
+}
+a{
+	color: #006699;
+	text-decoration: none;
+	font-weight: bold;
+}
+.code ol{
+	padding-left: 10px;
+	list-style-type: decimal;
+	margin: 0px;
+	text-indent: 15px;
+}
+.code li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.verde, .azul, .navy, .rojo, .burdeo, .nar, .ciel{
+	margin-left: 1em;
+}
+.verde {
+	color: #006600;
+}
+.azul {
+	color: #0033FF;
+}
+.navy {
+	color: #000099;
+}
+.rojo {
+	color: #FF0000;
+}
+.burdeo {
+	color: #990000;
+}
+.nar{
+	color: #FF9900;
+}
+.ciel{
+	color: #0099FF;
+}

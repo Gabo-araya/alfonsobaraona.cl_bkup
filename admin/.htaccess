@@ -1,0 +1,2 @@
+ErrorDocument 404 404.php
+#ErrorDocument 404 http://localhost/layouts/acid_lemon/404.php

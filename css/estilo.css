@@ -1,0 +1,354 @@
+/*********************************************
+Sitio Web: alfonsobaraona.cl
+Autor: Gabriel Araya Rocha - gabo.araya@gmail.com - http://portrait.cl/
+Fecha: 11/2008
+**********************************************/
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font: 0.8em/1em "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+	background: #E6DFD5 url(../img/body.png);
+}
+#wrapper{
+	width: 760px;
+	margin: 20px auto;
+	padding: 0px;
+	background: #E6DFD5;
+	border: 1px solid #666666;
+}
+#skip{
+	display: none;
+	font-size: 0em;
+	text-decoration: none;
+}
+.hidden{
+	display: none;
+	font-size: 0em;
+	text-decoration: none;
+}
+#header{
+	height: 70px;
+	margin: 0px;
+	background: #E6DFD5 url(../img/header.jpg);
+	padding: 0px;
+	border-bottom: 1px solid #666666;
+}
+#header a, #header a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#header h1{
+	color: #FFFFFF;
+	margin: 0em 0;
+	text-indent: 1em;
+	padding-top: 45px;
+	font: bold 36px Verdana, Arial, Helvetica, sans-serif;
+}
+#header .imagen_titulo{
+	padding: 5px;
+	margin-top: 45px;	
+	margin-left: 25px;	
+}
+#header p{
+	text-indent: 25px;
+	color: #FFF;
+	font: normal 14px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#navigation{
+	width: 200px;
+
+	margin: 3em 0px 1em 1em;
+	padding: 0;
+	font: bold 1.1em "Trebuchet MS", Arial, Verdana, Helvetica, sans-serif;
+	overflow: hidden;
+	background: #FFF;
+	line-height: 1.5em;
+	border-right: 1px solid #666;
+	border-left: 1px solid #666;
+	border-top: 1px solid #666;
+}
+
+
+#navigation li{
+	text-transform: capitalize;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #666;
+}
+
+#navigation li a{
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	padding: 8px 4px 8px 12px;
+	background: url(../img/blockdefault.png);
+}
+
+#navigation li a:hover, #navigation li .current{
+	color: #990000;
+	background: #CCCCCC url(../img/blockactive.png);
+}
+
+#content{
+	float: right;
+	width: 70%;
+	margin-top: 1em;
+}
+#content h1{
+	font-size: 1.4em;
+	border-bottom: 1px solid #000000;
+	color: #000000;
+	text-decoration: none;
+	margin-bottom: 10px;
+	font-weight: bold;
+	text-indent: 5px;
+	padding: 5px;
+}
+.article{
+	margin: 15px;
+	padding: 15px;
+	background: #FFFFFF;
+}
+.article h1{
+	font-size: 1.2em;
+	border-bottom: 1px solid #000000;
+	color: #000000;
+	text-decoration: none;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.article h1 a:hover{
+	color: #0099FF;
+	text-decoration: none;
+}
+.article h2{
+	border-bottom: 1px solid #000000;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	font: bold 1.1em Georgia, "Times New Roman", Times, serif;
+}
+.article h2 a:hover{
+	color: #0099FF;
+	text-decoration: none;
+}
+.article h3{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	font: bold 1em Georgia, "Times New Roman", Times, serif;
+}
+.article h3 a:hover{
+	color: #FF0000;
+	text-decoration: none;
+}
+.article p{
+	text-align: justify;
+	text-indent: 25px;
+	line-height: 1.8em;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.article img, #side img{
+	background: #FFFFFF;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid #000000;
+}
+.article a, #side a{
+	color: #990000;
+	text-decoration: none;
+	font-weight: bold;
+}
+.article a:visited, #side a:visited{
+	color: #990000;
+	text-decoration: underline;
+}
+.article a:hover, #side a:hover{
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+.article blockquote, .article .code{
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	margin: 10px auto;
+	width: 70%;
+}
+.article blockquote{
+	padding: 15px 20px 15px 35px;
+	background: #FFFFFF url(../img/blockquote.gif) no-repeat left top;
+}
+.article .code{
+	padding: 15px;
+	background: #FFFFFF url(../img/code.gif) no-repeat left top;
+	font: 12px "Courier New", Courier, mono;
+	overflow: auto;
+	white-space: nowrap;
+}
+.article .code ol{
+	padding-left: 10px;
+	list-style-type: decimal;
+	margin: 0px;
+	text-indent: 15px;
+}
+.article .code li{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.article ul{
+	padding-left: 50px;
+	list-style-type: disc;
+	margin: 10px;
+	text-indent: 2em;
+}
+.article ol{
+	padding-left: 50px;
+	list-style-type: decimal;
+	margin: 10px;
+	text-indent: 2em;
+}
+.article li{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.article-data{
+	font-size: 0.9em;
+	text-align: right;
+}
+.article acronym {
+	border-bottom: 1px dotted #000;
+}
+
+#flash {
+    width: 200px;
+    height: 200px;
+    margin: 1em;
+    padding: 0px;
+	border: 1px solid #666;
+}
+
+#side{
+	width: 200px;
+	background: #FFFFFF;
+	margin-top: 1em;	
+	margin-bottom: 2em;
+	line-height: 1.5em;
+	margin-left: 1em;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	border-left: 1px solid #666;
+}
+#side h3 {
+	background: #FFFFFF url(../img/blockdefault.png);
+	color: #000000;
+	font-size: 1.2em;
+	line-height: 40px;
+	padding-left: 12px;
+	text-transform: capitalize;
+	margin: 0px;
+	padding-top: 0px;
+	border-top: 1px solid #666;
+	border-bottom: 1px solid #666;
+}
+#side p{
+	text-indent: 10px;
+	margin: 10px;
+}
+#side ul {margin: 0; padding: 0;}
+#side li {
+	border-bottom: 1px solid #006699;
+	list-style: none;
+}
+#side li a {
+	background: #FFFFFF;	
+	color: #666666;
+	display: block;
+	padding: 8px 4px 8px 12px;
+	text-decoration: none;
+}
+#side li a:hover {
+	background: #D5EEFF;
+	color: #0066FF;
+}
+acronym {
+	border-bottom: 1px dotted #FFFFFF;
+}
+#footer {
+	text-align: center;
+	width: 760px;
+	font-size: 0.9em;
+	clear: both;
+	border-top: 1px solid #666666;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	background: #FFFFFF;
+}
+#footer p{
+	text-align: center;
+	line-height: 1.1em;
+	padding: 0.5em;
+}
+
+#footer a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #990000;
+}
+
+#footer a:hover {
+        display: inline;
+        line-height: 14px;
+        height: 16px;
+        color: #990000;
+        text-decoration: underline;
+}
+
+.fecha {
+	font-size: 0.9em;
+	line-height: normal;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+.leermas {
+	font-size: 0.9em;
+	text-align: right;
+	line-height: normal;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+.paginar {
+	padding: 10px;
+	font-size: 0.9em;
+	text-align: center;
+	margin: 10px auto;
+}
+
+.paginar em{
+	padding: 8px 4px;
+	font-weight: bold;
+	border: 1px solid #000000;
+	text-decoration: none;
+	margin: 2px;
+	color: #000000;
+	font-style: normal;
+	background: #FFFFFF;
+}
+
+.paginar a{
+	padding: 3px 4px 4px;
+	font-weight: normal;
+	text-decoration: none;
+	border: 1px solid #666;	
+	margin: 2px;
+	color:#666;
+}
+
+.paginar a:hover{
+	border: 1px solid #006699;
+	color: #006699;
+	background: #FFFFFF;
+	text-decoration: none;
+}
+.txtpeque {font-size: small}

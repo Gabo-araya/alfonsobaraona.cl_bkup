@@ -1,0 +1,214 @@
+body {
+	font:14px "Trebuchet MS", Arial, sans-serif;
+	background:#FFFFFF;
+	color: #000000;
+	margin:0px;
+}
+
+#todo {
+        width: 760px;
+        margin:10px auto;
+        background-color: #FFFFFF;
+        border: 1px solid #000000;
+}
+
+/* header del sitio */
+#header,#header_admin {
+        width:100%;
+        height: 70px;
+        margin: 0px;
+        padding: 0px;
+        border-bottom: 1px solid #000000;
+}
+#header {
+        background:#FFFFFF url('../img/header.jpg') no-repeat;
+}
+#header_admin {
+	background:#0099FF url('../img/header_admin.jpg') no-repeat;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+#header_admin h1 {
+        font-size: 36px;
+        line-height: 15px;
+        font-weight: bold;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-top: 20px;
+}
+
+#header_admin p {
+        font-size: 12px;
+        line-height: 5px;
+        color: #FFF;
+        text-decoration: none;
+        padding-left: 14px;
+}
+
+#menu {
+        width:100%;
+        height: 30px;
+        margin: 0px;
+        padding: 15px 0px 0px;
+        text-align: center;
+        background: url('../img/fondo_menu.png');
+        border-bottom: 1px solid #000000;
+}
+
+#menu ul {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+}
+
+#menu ul li {
+	font:bold 11px "Trebuchet MS", Arial, sans-serif;
+	display:inline;
+	padding:0px;
+	text-align: center;
+	height: 30px;
+	vertical-align: text-bottom;
+	color: #0066FF;
+}
+
+#menu ul li a{
+        text-decoration:none;
+        font-weight: bold;
+        color: #333333;
+}
+
+#menu ul li a:hover{
+        color:#000000;
+        display: inline;
+        text-decoration: underline overline;
+}
+
+#submenu {
+	width:100%;
+	height: 30px;
+	margin: 0px;
+	padding: 15px 0px 0px 0px;
+	border-bottom: 1px solid #000000;
+	text-indent: 20px;
+}
+
+#submenu ul {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+}
+
+#submenu ul li {
+	font:bold 11px "Trebuchet MS", Arial, sans-serif;
+	display:inline;
+	padding:0px;
+	text-align: center;
+	height: 30px;
+	vertical-align: text-bottom;
+	color: #0066FF;
+}
+
+#submenu ul li a{
+        text-decoration:none;
+        font-weight: bold;
+        color: #333333;
+}
+
+#submenu ul li a:hover{
+        color:#000000;
+        display: inline;
+        text-decoration: underline overline;
+}
+
+/* contenedor */
+#contenedor {
+	width:740px;
+	margin: auto;
+	padding: 10px;
+	clear: both;
+	background-color: #CCCCCC;
+}
+
+#articulo {
+	width:700px;
+	padding: 10px;
+	margin: 10px auto;
+	background-color: #FFFFFF;
+/*	background-image: url(../img/fondo_articulo.png);
+	background-repeat:  repeat-x;
+	background-position: top;
+	background-attachment: scroll;*/
+}
+
+a {
+        text-decoration:none;
+        color: #990000;
+        font-weight: bold;
+}
+
+a:hover {
+        color:#FF0000;
+}
+#articulo h1 {
+        font-size: 16px;
+        font-style: normal;
+        line-height: normal;
+        font-weight: bold;
+        border-bottom: 1px solid #000000;
+}
+#articulo h2 {
+        font-size: 14px;
+        line-height: normal;
+        font-weight: bold;
+        text-indent: 15pt;
+}
+#articulo h3 {
+        font-size: 14px;
+        line-height: normal;
+        font-weight: bold;
+        text-indent: 25pt;
+}
+
+
+#articulo p {
+        text-indent: 25pt;
+        text-align: justify;
+}
+
+
+
+
+
+/* footer */
+
+#footer {
+	width: 100%;
+	font-size: 12px;
+	border-top: 1px solid #000000;
+	background: url('../img/fondo_footer.png');
+	color: #000;
+	padding: 10px 0px;
+	text-indent: 30px;
+}
+
+#footer a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #990000;
+}
+
+#footer a:hover {
+        color: #990000;
+        text-decoration: underline;
+}
+
+/* Creditos */
+#credits {
+        text-align: center;
+        width: 100%;
+		padding: 10px 0px;
+        font-size: 11px;
+        border-top: 1px solid #000000;
+        color: #000;
+}
